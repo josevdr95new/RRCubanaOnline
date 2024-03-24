@@ -1,0 +1,53 @@
+1.2.2
+- Versiones inferiores fueron superadas
+- Algunos errores de programación corregidos
+- Cambios en la apariencia en la app completa iconos y más
+- Otros cambios menores 
+- Eliminada barra de fecha
+- Creación de el archivo "CHANGES"
+- Modificados mensajes de notificaciones
+- Botones de compartir rss en las redes sociales
+- Reprado boton de "Abrir URL"
+- Menú de db siempre sera blanco
+- Nueva pantalla de carga
+- Boton de actualizar el Feed
+- Nuevo menú "acerca de..."
+- Modo día/noche colores modificados
+- MessageBox para reparar DB
+- Leer feed personalizado
+- Botones para compartir app en redes sociales
+- Boton para configurar app
+
+1.2.0
+- Versiones inferiores fueron superadas
+- Algunos errores de programación corregidos
+- Cambios en la apariencia en la app completa iconos y más
+- Nuevas emisoras a la DB
+- Otros cambios menores 
+- Consola para reportar errores v0.01
+- Pronóstico del tiempo
+- Barra de fecha
+- Modo día/noche
+- Boton de reparar DB
+
+
+1.1.0
+- Versiones inferiores fueron superadas
+- Cambios en la apariencia en la app completa iconos y más
+- Algunos errores de programación corregidos
+- Opción de editar DB de emisoras
+- Canal de noticias RSS
+- Opción de grabación
+- Creación del menú tray
+- Creación de las notificaciones tray 
+- Nuevas emisoras a la DB
+- Otros cambios menores 
+
+
+1.0.1
+- Algunos errores de programación corregidos
+- Optimizado el código
+
+
+1.0.0
+- Primera versión funcional 
