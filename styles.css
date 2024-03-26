@@ -1,0 +1,147 @@
+/* Estilos globales */
+body {
+  font-family: Arial, sans-serif;
+  /*margin: 0;
+  padding: 0;*/
+  background-color: #f2f2f2;
+}
+
+.container {
+  max-width: 1200px;
+  margin: 20px auto;
+  padding: 20px;
+}
+
+/* Estilos de encabezado */
+header {
+  background-color: #333;
+  color: #fff;
+  padding: 20px;
+  animation: fadeInDown 1s ease-out;
+  
+  text-align: center;
+  
+}
+
+@keyframes fadeInDown {
+  from {
+    opacity: 0;
+    transform: translateY(-20px);
+  }
+  to {
+    opacity: 1;
+    transform: none;
+  }
+}
+
+h1 {
+  font-size: 36px;
+  margin: 0;
+}
+
+nav ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  display: flex;
+  justify-content: center;
+}
+
+nav ul li {
+  margin-right: 10px;
+  animation: fadeInUp 1s ease-out;
+}
+
+@keyframes fadeInUp {
+  from {
+    opacity: 0;
+    transform: translateY(20px);
+  }
+  to {
+    opacity: 1;
+    transform: none;
+  }
+}
+
+nav ul li a {
+  color: #fff;
+  text-decoration: none;
+}
+
+/* Estilos de secciones */
+section {
+  margin-bottom: 40px;
+}
+
+h2 {
+  font-size: 24px;
+  color: #333;
+  margin-bottom: 20px;
+}
+
+p {
+  color: #555;
+  line-height: 1.5;
+}
+
+.button {
+  display: inline-block;
+  color: #fff;
+  background-color: #007bff;
+  padding: 10px 20px;
+  text-decoration: none;
+  border-radius: 5px;
+  transition: background-color 0.3s ease, transform 0.3s ease;
+}
+
+.button:hover {
+  background-color: #0056b3;
+  transform: scale(1.05);
+}
+
+/* Estilos de galería de imágenes */
+.gallery {
+  
+display: grid;
+ grid-template-columns: repeat(2, 2fr);
+ grid-gap: 20px;
+ 
+  
+}
+
+.gallery img {
+  width: 100%;
+  height: auto;
+}
+
+/* Estilos de pie de página */
+footer {
+  background-color: #333;
+  color: #fff;
+  padding: 20px;
+  text-align: center;
+}
+
+footer p {
+margin: 0;
+color: red;
+}
+
+body {
+ text-align:center;
+}
+
+
+#galeria > h2{
+background-color: #333;
+font-family: Arial, sans-serif;
+color: #fff;
+text-align: center;
+font-size: 36px;
+border: 3px solid ;
+border-radius: 20px;
+}
+	
+#descargar > p:nth-child(3){
+font-weight: bold
+}
